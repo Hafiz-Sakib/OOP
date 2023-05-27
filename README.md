@@ -1,9 +1,9 @@
-# <h1 align="center"> Data Structure <h1>
+# Data Structure (CSE-222) Course
 
-## <h1 align="center"> Premier University,Chittagong <h1>
+## Premier University,Chittagong
 
-### <h1 align="center"> Course Instructor : Adiba Ibnat Chowdhury <h1>
+### Course Instructor : Adiba Ibnat Chowdhury
 
 <p align="center"> 
-<img height="100%" width="100%" src="https://i.postimg.cc/V6DkvWsK/codeforces-sponsored-by-ton.png">
+<img height="100%" width="100%" src="https://cdn.educba.com/academy/wp-content/uploads/2019/02/Object-Oriented-Programming-in-Java.jpg">
 </p>
