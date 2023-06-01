@@ -1,0 +1,64 @@
+{
+  "Print to Console": {
+    "prefix": "print",
+    "body": ["System.out.println(\"$1\");", "$2"],
+    "description": "Print to Console"
+  },
+
+  "For Loop": {
+    "prefix": "for",
+    "body": ["for (int i = 0; i < ${1:length}; i++) {", "", "}"],
+    "description": "For Loop"
+  },
+
+  "While Loop": {
+    "prefix": "while",
+    "body": ["while (${1:condition}) {", "", "}"],
+    "description": "While Loop"
+  },
+
+  "If Statement": {
+    "prefix": "if",
+    "body": ["if (${1:condition}) {", "\t$2", "}"],
+    "description": "If Statement"
+  },
+
+  "If-Else Statement": {
+    "prefix": "ife",
+    "body": ["if (${1:condition}) {", "\t$2", "} else {", "\t$3", "}"],
+    "description": "If-Else Statement"
+  },
+
+  "Switch Statement": {
+    "prefix": "switch",
+    "body": [
+      "switch (${1:variable}) {",
+      "\tcase ${2:value1}:",
+      "\t\t$3",
+      "\t\tbreak;",
+      "\tcase ${4:value2}:",
+      "\t\t$5",
+      "\t\tbreak;",
+      "\tdefault:",
+      "\t\t$6",
+      "}"
+    ],
+    "description": "Switch Statement"
+  },
+
+  "Try-Catch Block": {
+    "prefix": "try",
+    "body": ["try {", "\t$1", "} catch (${2:Exception e}) {", "\t$3", "}"],
+    "description": "Try-Catch Block"
+  },
+
+  "Method Declaration": {
+    "prefix": "method",
+    "body": [
+      "${1:public static} ${2:void} ${3:methodName}(${4:parameters}) {",
+      "\t$5",
+      "}"
+    ],
+    "description": "Method Declaration"
+  }
+}
