@@ -1,9 +1,8 @@
-
 {
   "Print to Console": {
     "prefix": "print",
     "body": ["System.out.println(\"$1\");", "$2"],
-    "description": "Print to Console"
+    "description": "Print With newLine"
   },
 
   "For Loop": {
