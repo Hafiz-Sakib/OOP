@@ -14,12 +14,10 @@ public class Triangle_area_using_method_overloading {
 
 class Area {
     void area(int a) {
-        System.out.print("Area of Equilateral Triangle : ");
         System.out.println((Math.sqrt(3) / 4 * a * a));
     }
 
     void area(int b, int h) {
-        System.out.print("Area of Normal Triangle : ");
         System.out.println(0.5 * b * h);
     }
 }
