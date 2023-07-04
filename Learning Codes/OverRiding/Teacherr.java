@@ -1,20 +1,20 @@
-// Teacher Using Constructor OverRiding
+// Teacher Using Method OverRiding
 
-public class Teacher {
+public class Teacherr {
 
     String name, gender;
     int phn;
 
-    Teacher() {
+    void Teacher1() {
         System.out.println("No Information!");
     }
 
-    Teacher(String n, String g) {
+    void Teacher2(String n, String g) {
         name = n;
         gender = g;
     }
 
-    Teacher(String n, String g, int p) {
+    void Teacher3(String n, String g, int p) {
         name = n;
         gender = g;
         phn = p;
@@ -33,4 +33,5 @@ public class Teacher {
         Teacher Mushi = new Teacher("Mushi", "Male", 013456456456);
         Mushi.displayTeacher();
     }
+
 }
