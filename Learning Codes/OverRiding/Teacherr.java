@@ -27,11 +27,14 @@ public class Teacherr {
     }
 
     public static void main(String[] args) {
-        Teacher Sakib = new Teacher();
-        Teacher Tamim = new Teacher("Tamim", "Male");
+        Teacherr Sakib = new Teacherr();
+        Teacherr Tamim = new Teacherr();
+        Tamim.name = "Tamim";
         Tamim.displayTeacher();
-        Teacher Mushi = new Teacher("Mushi", "Male", 013456456456);
+        Teacherr Mushi = new Teacherr();
+        Mushi.name = "Mushi";
+        Mushi.gender = "Male";
+        Mushi.phn = 01516;
         Mushi.displayTeacher();
     }
-
 }
