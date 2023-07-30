@@ -48,7 +48,7 @@ public class Car {
 
         System.out.println("\nCar 2 Details:");
         System.out.println("Make: " + car2.make);
-             System.out.println("Year: " + car2.year);
+        System.out.println("Year: " + car2.year);
         System.out.println("Price: $" + car2.price);
     }
 }
