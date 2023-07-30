@@ -4,26 +4,31 @@ public class Car {
     int year;
     double price;
 
-    public Car(String make, String model) {
+    public Car(String make, String model) 
+    {
         this.make = make;
         this.model = model;
         this.year = 0;
         this.price = 0.00;
     }
-    public Car(String make, String model, int year) {
+
+    public Car(String make, String model, int year) 
+    {
         this.make = make;
         this.model = model;
         this.year = year;
         this.price = 0.00;
     }
 
-    public Car(String make, String model, double price) {
+    public Car(String make, String model, double price) 
+    {
         this.make = make;
         this.model = model;
         this.price = price;
     }
 
-    public Car(String make, String model, int year, double price) {
+    public Car(String make, String model, int year, double price) 
+    {
         this.make = make;
         this.model = model;
         this.year = year;
@@ -31,7 +36,7 @@ public class Car {
     }
 
     public static void main(String[] args) {
-        // Creating car objects using different constructors
+        
         Car car1 = new Car("Toyota", "Camry", 2021, 25000.0);
         Car car2 = new Car("Honda", "Civic");
 
@@ -43,8 +48,7 @@ public class Car {
 
         System.out.println("\nCar 2 Details:");
         System.out.println("Make: " + car2.make);
-        System.out.println("Model: " + car2.model);
-        System.out.println("Year: " + car2.year);
+             System.out.println("Year: " + car2.year);
         System.out.println("Price: $" + car2.price);
     }
 }
