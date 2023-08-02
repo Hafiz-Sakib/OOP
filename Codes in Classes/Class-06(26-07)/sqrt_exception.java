@@ -14,6 +14,6 @@ public class sqrt_exception {
             d = Math.sqrt(a);
             System.out.println("Squre Root of Your Number is = : " + d);
         }
-
+        sc.close();
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.lang.Math;
 
-public class performance {
+public class performance1 {
     public static void main(String[] args) {
         int a;
         double d = 0;
@@ -14,6 +14,7 @@ public class performance {
         } catch (ArithmeticException error) {
             System.out.println(error);
         }
+        sc.close();
 
     }
 

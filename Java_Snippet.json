@@ -2,7 +2,7 @@
   "Print to Console": {
     "prefix": "print",
     "body": ["System.out.println(\"$1\");", "$2"],
-    "description": "Print With newLine"
+    "description": "Print to Console"
   },
 
   "For Loop": {
@@ -60,5 +60,10 @@
       "}"
     ],
     "description": "Method Declaration"
+  },
+  "sc": {
+    "prefix": "sc",
+    "body": ["Scanner sc = new Scanner(System.in);"],
+    "description": "Input object Declaration"
   }
 }
