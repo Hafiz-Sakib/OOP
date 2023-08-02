@@ -17,5 +17,4 @@ public class performance1 {
         sc.close();
 
     }
-
 }
